@@ -94,3 +94,8 @@ async def process_claim(files: List[UploadFile] = File(...)):
         "policy_clauses_used": policy_clauses[:6],  # show a handful on UI
         "decision": decision
     }
+    if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=8000)
+
+
