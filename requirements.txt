@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+pytesseract
+Pillow
+requests
+python-multipart
+python-dotenv
+pymupdf
+python-docx
+docx2txt
+# 
+sentence-transformers
+faiss-cpu
+duckduckgo-search
+beautifulsoup4
